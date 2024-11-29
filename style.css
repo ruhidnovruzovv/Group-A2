@@ -114,3 +114,80 @@ li:nth-child(3){
     height: 100%;
   }
   
+  .wrapper{
+    width: 1903px;
+    height: 857px;
+    padding: 112px 0px;
+}
+
+.wrapper-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 70px;
+}
+
+.wrapper-text p{
+    color: #F35858;
+    font-size: 28px;
+}
+
+.wrapper-text h2{
+    font-size: 38px;
+    color: #52575C;
+    font-weight: 100;
+}
+
+.wrapper-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.wrapper-description{
+    width: 366px;
+    height: 97px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.wrapper-description p{
+    color: #52575C;
+    line-height: 2;
+    font-size: 18px;
+}
+
+.wrapper-btn{
+    width: 241px;
+    height: 64px;
+    border-radius: 10px;
+    border: 1px solid #94989b;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+.wrapper-btn a{
+    text-decoration: none;
+    color: #52575C;
+    font-size: 18px;
+
+}
+
+.wrapper-btn:hover{
+    border: 1px solid #F35858;
+}
+
+.wrapper-btn:hover a{
+    color:  #F35858;
+}
+
+.wrapper-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
